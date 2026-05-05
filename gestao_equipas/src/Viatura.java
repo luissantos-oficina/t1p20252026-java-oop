@@ -5,11 +5,10 @@ public class Viatura {
     private int velMaxima;
     private String matricula;
 
-    
     public Viatura() {
+        numRodas = 2;
     }
 
-    
     public Viatura(String tipoCarro, int numRodas, int velMaxima, String matricula) {
         this.tipoCarro = tipoCarro;
         this.numRodas = numRodas;
@@ -17,13 +16,11 @@ public class Viatura {
         this.matricula = matricula;
     }
 
-
     public Viatura(String tipoCarro, int numRodas, int velMaxima) {
         this.tipoCarro = tipoCarro;
         this.numRodas = numRodas;
         this.velMaxima = velMaxima;
     }
-
 
     public String getTipoCarro() {
         return tipoCarro;
@@ -45,8 +42,8 @@ public class Viatura {
     }
 
     public void mostraInfo() {
-        System.out.println("Vou mostrar a informação do carro");
-        System.out.println("Tipo de Carro: " + this.tipoCarro);
+        System.out.println("Vou mostrar a informação da viatura");
+        System.out.println("Tipo: " + this.tipoCarro);
         System.out.println("Número de Rodas: " + this.numRodas);
         System.out.println("Velocidade Máxima: " + this.velMaxima);
         System.out.println("Matricula: " + this.matricula);

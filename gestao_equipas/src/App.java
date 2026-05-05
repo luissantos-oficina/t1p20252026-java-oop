@@ -3,10 +3,10 @@ public class App {
         //
         //System.out.println("Hello, World!");
 
-        Viatura carro = new Viatura();
-        carro.setNumRodas(4);
-        carro.setTipoCarro("Carro Desportivo");
-        carro.setVelMaxima(120);
+        Barco carro = new Barco();
+        /*carro.setNumRodas(4);
+        carro.setTipoCarro("Barco Desportivo");
+        carro.setVelMaxima(120);*/
 
         carro.mostraInfo();
     }
